@@ -12,6 +12,9 @@ Cofund UI
 install libraries:
 `npm install --save-dev hardhat @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers ethers`
 
+to deploy:
+- go to smart contract folder
+- run `npx hardhat run scripts/deploy.js --network ropsten`
 
 ## Alchemy
 - Go to Alchemy and create an app: https://dashboard.alchemyapi.io/
@@ -21,7 +24,9 @@ install libraries:
 
 
 
-## Front-end
+## Client
+go to client folder and run `npm run dev`
+
 
 ### Libraries
 

@@ -49,7 +49,7 @@ const TransactionsCard = ({ addressTo, addressFrom, timestamp, message, keyword,
 };
 
 const Transactions = () => {
-    // check if account is exists, i.e. metamsk is connected.
+    // check if account is exists, i.e. metamask is connected.
   const { transactions, currentAccount } = useContext(TransactionContext);
 
   return (

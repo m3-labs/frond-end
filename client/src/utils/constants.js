@@ -2,6 +2,6 @@
 import abi from "./Transactions.json";
 
 // TODO
-// this is the contract address on the network after deployed
-export const contractAddress = "0x1A5B430E51BfE85a1271362f0506a61b5620D980";
+// this is the contract address deployed on ropsten
+export const contractAddress = "0xa20A694178a07C617Dcb021abf1053F40bc65c60";
 export const contractABI = abi.abi;

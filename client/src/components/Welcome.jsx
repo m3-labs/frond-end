@@ -42,7 +42,7 @@ const Welcome = () => {
             Manage DAO grants <br /> Vote, Fund, Deliver
           </h1>
           <p className="text-left mt-5 text-white font-light md:w-9/12 w-11/12 text-base">
-            Explore the crypto world. Buy and sell cryptocurrencies easily on Krypto.
+          Grants payment tech for DAOs and beyond.
           </p>
           {!currentAccount && (
             <button
